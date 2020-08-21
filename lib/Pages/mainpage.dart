@@ -50,7 +50,7 @@ class MainPage extends StatelessWidget {
             Text(
               "UPTO 21% OFF",
               textAlign: TextAlign.start,
-              style: TextStyle(color: Colors.black38),
+              style: TextStyle(color: Colors.black38, fontSize: 10),
             ),
 
             SizedBox(
