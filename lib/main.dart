@@ -1,15 +1,15 @@
-import 'package:demopro/Pages/Myhomepage.dart';
 import 'package:flutter/material.dart';
+import 'Pages/mainpage.dart';
 
-void main() => runApp(Myapplication());
+void main() => runApp(MyApp());
 
-class Myapplication extends StatelessWidget {
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData(primarySwatch: Colors.grey),
-        debugShowCheckedModeBanner: false,
-        title: 'Demo Project',
-        home: Myhome());
+      title: 'DEMOPRO2',
+      debugShowCheckedModeBanner: false,
+      home: MainPage(),
+    );
   }
 }
